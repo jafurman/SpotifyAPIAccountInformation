@@ -2,8 +2,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import requests
 
-client_id = '6f61d716331b4159b2a347c9d43eede7'
-client_secret = '4486acbeb22546e08348e511d138baba'
+client_id = 'YOUR KEY'
+client_secret = 'YOUR KEY'
 redirect_uri = 'http://localhost:8080/callback'
 
 scope = 'user-read-private user-read-email user-library-read user-library-modify playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private user-follow-read user-follow-modify user-top-read ugc-image-upload'

@@ -1,8 +1,8 @@
 import requests
 
 # Spotify application credentials
-client_id = '6f61d716331b4159b2a347c9d43eede7'
-client_secret = '4486acbeb22546e08348e511d138baba'
+client_id = 'YOUR KEY'
+client_secret = 'YOUR KEY'
 
 # Step 1: Obtain an access token using the Client Credentials flow
 token_url = 'https://accounts.spotify.com/api/token'
