@@ -99,8 +99,8 @@ def removePopularityLevelFromLikedSongs(popLevel):
 
 # _______________________ MAIN METHOD ___________________________
 
-client_id = '6f61d716331b4159b2a347c9d43eede7'
-client_secret = '4486acbeb22546e08348e511d138baba'
+client_id = 'FILL WITH YOUR ID'
+client_secret = 'FILL WITH YOUR SECRET'
 redirect_uri = 'http://localhost:8080/callback'
 
 sp_oauth = SpotifyOAuth(client_id=client_id, client_secret=client_secret, redirect_uri=redirect_uri,
